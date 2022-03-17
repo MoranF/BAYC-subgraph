@@ -1,0 +1,14 @@
+type Owner @entity {
+  id: ID!
+  address: Bytes!
+  tokenIds: [BigInt!]!
+  tokenCount: BigInt!
+}
+
+type ApeTransfer @entity {
+  id: ID!
+  from: Bytes!
+  to: Bytes!
+  tokenId: BigInt!
+  timestamp: BigInt!
+}
