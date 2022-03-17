@@ -1,2 +1,2 @@
 # BAYC-subgraph
-The Graph subgraph for BAYC
+The Graph subgraph for BAYC.
